@@ -71,8 +71,17 @@ width: 100%;
   backface-visibility: hidden;
 }
 
-.cartao:hover .cartao-interno
+.cartao:hover .cartao-interno{
   transform: rotateY(180de)
+}
+.cartao-verso {
+  transform: rotateY(180deg);
+}
+
+section {
+  display: flex;
+  /*gap: 16px; */
+}
 
 footer {
 background-color: #7e3e1c;
